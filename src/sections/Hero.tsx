@@ -2,7 +2,7 @@ import profile from '../assets/profile.png'
 
 export default function Hero() {
     return (
-        <section className="relative min-h-[90vh] flex items-center pt-32 pb-15 overflow-hidden">
+        <section className="relative min-h-[90vh] flex items-center pt-32 pb-15 md:pb-28 lg:pb-0 overflow-hidden">
 
             {/* Glow */}
             <div className="absolute top-[-120px] left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-blue-500/15 blur-[120px] sm:blur-[200px] rounded-full pointer-events-none" />

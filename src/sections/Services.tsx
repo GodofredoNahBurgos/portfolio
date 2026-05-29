@@ -17,28 +17,9 @@ export default function Services() {
                 <div className="grid md:grid-cols-3 gap-8">
 
                     {services.map((service) => (
-                        <article
-                            key={service.title}
-                            className="
-                bg-zinc-900/50
-                border border-zinc-800
-                rounded-3xl
-                p-8
-                hover:border-blue-500/30
-                transition
-                duration-300
-              "
-                        >
+                        <article key={service.title} className="bg-zinc-900/50 border border-zinc-800 rounded-3xl p-8 hover:border-blue-500/30 transition duration-300" >
 
-                            <div className="
-                w-14 h-14
-                rounded-2xl
-                bg-blue-500/10
-                flex items-center justify-center
-                text-blue-400
-                text-xl
-                mb-8
-              ">
+                            <div className="w-14 h-14 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 text-xl mb-8">
                                 ✦
                             </div>
 
