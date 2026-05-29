@@ -2,23 +2,10 @@ import profile from '../assets/profile.png'
 
 export default function Hero() {
     return (
-        <section className="relative min-h-screen flex items-center pt-32 overflow-hidden">
+        <section className="relative min-h-[90vh] flex items-center pt-32 pb-15 overflow-hidden">
 
             {/* Glow */}
-            <div
-                className="
-    absolute
-    top-[-120px]
-    left-1/2
-    -translate-x-1/2
-    w-[700px]
-    h-[700px]
-    bg-blue-500/15
-    blur-[120px]
-    rounded-full
-    pointer-events-none
-  "
-            />
+            <div className="absolute top-[-120px] left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-blue-500/15 blur-[120px] sm:blur-[200px] rounded-full pointer-events-none" />
 
             <div className="relative max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
 
@@ -66,9 +53,10 @@ export default function Hero() {
                 {/* Foto */}
                 <div className="relative flex justify-center">
 
-                    <div className="absolute inset-0 bg-blue-500/20 blur-3xl rounded-full" />
+                    <div
+                        className="absolute inset-6 md:inset-0 bg-blue-500/15 blur-2xl md:blur-3xl rounded-full" />
 
-                    <div className="relative w-[340px] h-[460px] rounded-4xl overflow-hidden border border-zinc-800 bg-zinc-900 shadow-2xl shadow-blue-500/10">
+                    <div className="relative w-[260px] h-[340px] md:w-[320px] md:h-[420px] lg:w-[340px] lg:h-[460px] rounded-4xl overflow-hidden border border-zinc-800 bg-zinc-900 shadow-2xl shadow-blue-500/10">
 
                         <img src={profile} alt="Profile" className="w-full h-full object-cover" />
 
