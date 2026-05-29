@@ -6,6 +6,7 @@ import Projects from "../sections/Projects";
 import Footer from "../components/Footer";
 import Services from "../sections/Services";
 import CTA from "../sections/CTA";
+import WhatsAppButton from "../components/WhatsappButton";
 
 export default function HomePage() {
     return (
@@ -22,6 +23,7 @@ export default function HomePage() {
                 <Projects />
                 <CTA />
                 <Footer />
+                <WhatsAppButton />
             </div>
 
         </main>
