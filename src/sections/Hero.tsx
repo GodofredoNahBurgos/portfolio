@@ -56,7 +56,7 @@ export default function Hero() {
                     <div
                         className="absolute inset-6 md:inset-0 bg-blue-500/15 blur-2xl md:blur-3xl rounded-full" />
 
-                    <div className="relative w-[260px] h-[340px] md:w-[320px] md:h-[420px] lg:w-[340px] lg:h-[460px] rounded-4xl overflow-hidden border border-zinc-800 bg-zinc-900 shadow-2xl shadow-blue-500/10">
+                    <div className="relative w-[300px] h-[340px] md:w-[400px] md:h-[420px] lg:w-[400px] lg:h-[460px] rounded-4xl overflow-hidden border border-zinc-800 bg-zinc-900 shadow-2xl shadow-blue-500/10">
 
                         <img src={profile} alt="Profile" className="w-full h-full object-cover" />
 
